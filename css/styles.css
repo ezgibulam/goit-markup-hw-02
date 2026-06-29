@@ -1,0 +1,118 @@
+body {
+  font-family: "Roboto", "fallback", sans-serif;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+header {
+  font-family: "Roboto", sans-serif;
+  background-color: #fcfcfc;
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  text-align: left;
+  font-size: 16px;
+}
+.nav-list {
+  list-style: none;
+}
+
+.nav-list a {
+  font-weight: 500;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+address a {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  text-decoration: none;
+}
+
+address a:hover {
+  color: #404bbf;
+  text-decoration: none;
+}
+
+.title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 56px;
+  background-color: #2e2f42;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.07;
+  letter-spacing: 2%;
+}
+
+.title > button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.title > button:hover {
+  background-color: #404bbf;
+}
+
+.benefits {
+  font-family: inherit;
+  background-color: #fcfcfc;
+}
+
+.benefits ul {
+  list-style: none;
+}
+
+.team {
+  font-family: inherit;
+  background-color: #f4f4fd;
+}
+
+.team ul {
+  list-style: none;
+}
+
+h2 {
+  text-align: center;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+
+.portfolio {
+  font-family: inherit;
+  background-color: #fcfcfc;
+}
+
+.portfolio ul {
+  list-style: none;
+}
+
+footer {
+  font-family: inherit;
+  background-color: #2e2f42;
+  color: #ffffff;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  text-align: left;
+}
