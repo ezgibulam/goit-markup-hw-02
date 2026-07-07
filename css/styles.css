@@ -3,7 +3,7 @@ body {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -12,10 +12,30 @@ header {
   background-color: #fcfcfc;
   color: #434455;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: left;
   font-size: 16px;
 }
+
+.web {
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.studio {
+  font-family: "Raleway", sans-serif;
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
 .nav-list {
   list-style: none;
 }
@@ -52,7 +72,7 @@ address a:hover {
   color: #ffffff;
   text-align: center;
   line-height: 1.07;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .title > button {
@@ -63,7 +83,7 @@ address a:hover {
   color: #ffffff;
   text-align: center;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -90,13 +110,15 @@ address a:hover {
   list-style: none;
 }
 
-h2 {
+h1,
+h2,
+h3 {
   text-align: center;
   font-family: inherit;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .portfolio {
@@ -113,6 +135,6 @@ footer {
   background-color: #2e2f42;
   color: #ffffff;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   text-align: left;
 }
